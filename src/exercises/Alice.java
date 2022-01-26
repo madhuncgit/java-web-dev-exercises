@@ -18,7 +18,8 @@ public class Alice {
        // String newPhrase = phrase.replace(word," ");
 //        System.out.println(phrase.substring(0,idx));
 //        System.out.println(phrase.substring(idx,phrase.length()));
-        String newPhrase = phrase.substring(0,idx)+phrase.substring(idx+phrase.length());
+//        String newPhrase = phrase.substring(0,idx)+phrase.substring(idx+phrase.length());
+        String newPhrase = phrase.substring(0,idx)+phrase.substring(idx+word.length(),phrase.length());
         System.out.println("The new phrase is :" );
         System.out.println(newPhrase);
 
